@@ -2,7 +2,7 @@
 
 一个 Android 端的正整数随机数生成器，界面使用 [Material Design 3](https://m3.material.io/)（Material You）。
 
-生成随机数这件事本身很简单，这个项目主要想把它做得**顺手**：范围和个数随手可调、结果一眼能读、每次生成都能回溯。
+范围和个数随手可调、结果一眼能读、每次生成都能回溯。
 
 <p align="center">
   <img src="screenshots/01-home.png" width="240" alt="首页" />
