@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+app/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# 本机配置（含 SDK 绝对路径）
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.hprof
+.kotlin/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 构建产物（仓库只保留源码；发布的包放 Releases）
+*.apk
+*.aab
+*.keystore
+*.jks
+dist/
+
+# 测试截图产物（仓库里的 screenshots/ 是人工归档，保留）
+app/build/screenshots/

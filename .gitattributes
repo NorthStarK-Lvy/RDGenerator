@@ -1,0 +1,15 @@
+# 统一换行符：文本文件入库为 LF，Windows 检出仍用 LF（Gradle/Kotlin 均无问题）
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+gradlew text eol=lf
+
+*.png binary
+*.jpg binary
+*.webp binary
+*.jar binary
+*.apk binary
+*.aab binary
+*.keystore binary
+*.jks binary
